@@ -1,0 +1,227 @@
+/* 全局css */
+body{
+	font: 13px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+	color:gainsboro;
+}
+
+ul li{
+	display:	inline-block;
+}
+
+/* 顶部header的css*/
+
+#bg_header{
+	color: gainsboro;
+	background: #272727 url(../images/logo/header_logo.png) no-repeat fixed top;
+	width: 100%;
+	height:160px;
+}
+
+#header_title{
+	position:absolute;
+	font: 350% Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	font-weight: lighter;
+	left: 5%;
+	top:5px;
+}
+
+#header_list{
+	position: absolute;
+	right:10px;
+}
+
+#header_list ul li{
+	margin-right: 40px;
+}
+
+#search{
+	position: absolute;
+	margin-top:-15px;
+	right: 10%;
+}
+
+#header_bottom{
+	font-size:110%;
+}
+
+#header_bottom ul{
+	margin-left:6%;
+}
+
+#header_bottom ul li{
+	margin-right:20px;
+}
+
+#header_bottom ul a{
+	color: black;
+}
+
+/* hotquestion浮游菜单的css */
+#hot_list{
+	position:fixed;
+	float: right;
+	width:200px;
+	top:35%;
+	margin-left:880px;
+	border:1px solid black;
+}
+
+#hot_list ul li{
+	display: block;
+}
+
+
+/* 底部显示的css */
+
+#footer{
+	width:100%;
+}
+
+#footer #information ul{
+	background-color: #2a2730;
+	padding-left:33%;
+	height: 50px;
+	margin-bottom: -100px;
+	color: #99979c;
+}
+
+#footer #information ul li{
+	padding-right: 10px;
+}
+
+#footer a{
+	color: #99979c;
+}
+
+/* reply_question.php页面显示回复和问题的css */
+
+#question{
+	border: 2px solid grey;
+	width: 60%;
+	margin-top: 4%;
+	margin-left: 11%;
+	padding:20px;
+	margin-right:40%;
+	background-color: #C8C8C8;
+}
+
+#question_img{
+	width:100%;
+	height:300px; 
+	border: 1px solid black;
+}
+
+.answer_pic{
+	width:100%;
+	height:300px;
+	overflow:scroll;
+}
+
+#answer{
+	border: 2px solid grey;
+	width: 60%;
+	margin-left: 11%;
+	padding:20px;
+	margin-top: 50px;
+	margin-right:40%;
+	margin-bottom: 50px;
+}
+
+.agree{
+	color: #00BB00;
+}
+
+#answer_contents{
+	width:100%;
+	height:150px;
+	overflow: scroll;
+	resize: none;
+	font: 13px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+#submit_button{
+	background-color: #66CCFF;
+	margin-left: 40%;
+	margin-top: 20px;
+	width: 90px;
+	height: 40px;
+}
+
+/* 首页显示问题信息的css */
+
+#content{
+	height:500px;
+}
+
+#question_list ul{
+	width: 725px;
+	margin-bottom:40px;
+	margin-left:6%;
+	margin-top:30px;
+}
+
+
+#question_list ul .left{
+	margin-right: 20px;
+}
+
+#question_list ul li p{
+	margin-top: 1px;
+}
+
+#question_list img{
+	border:.1em grey solid;
+}
+
+.change_page{
+	position:absolute;
+	color:black;
+}
+
+#prev_page{
+	margin-left:300px;
+}
+
+#next_page{
+	margin-left:600px;
+}
+
+/* upload_question.php页面的css */
+
+#upload_question{
+	margin-top: 40px;
+	height: 800px;
+	margin-left: 25%;
+}
+
+#upload_question ul li{
+	display: block;
+	margin-bottom: 40px;
+}
+
+#img_div{
+	border: 1px solid grey;
+	width: 500px;
+	height: 325px;
+	overflow: scroll;
+}
+
+#upload_contents{
+	resize: none;
+	width: 450px;
+	height: 100px;
+}
+
+#submit_button2{
+	background-color: #66CCFF;
+	margin-left: 180px;
+	width: 90px;
+	height: 40px;
+}
+
+/* --end-- */
